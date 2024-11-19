@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bgc {
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+
+}
+
+.boxes {
+  background-color: #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.boxes img {
+  height: 60px;
+}
+
+h1 span {
+  color: #D85004;
+}

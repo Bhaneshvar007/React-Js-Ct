@@ -1,0 +1,62 @@
+#userData {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding-left: 30px;
+}
+
+#childUser {
+    border: 1.5px solid gray;
+    width: 320px;
+    height: 320px;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 30px;
+    transition: all .5s ease;
+    overflow: hidden;
+
+}
+
+#secUser {
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    transition: all .5s ease;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#secUser p {
+    margin-top: -5px;
+}
+
+
+#childUser:hover {
+    scale: 1.02;
+}
+
+#childUser img {
+    width: 40%;
+    height: 50%;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+#childUser p {
+    font-size: 1.2rem;
+    margin-top: -10px;
+}
+
+#childUser button {
+    background-color: royalblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+#childUser button:active {
+    scale: .95;
+}

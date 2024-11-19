@@ -1,0 +1,33 @@
+.projectCard:hover {
+    scale: 1.02;
+}
+
+
+.icon {
+    font-size: .9rem;
+    display: inline-flex;
+    background: #D8D8D8;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    padding: 5px 12px;
+
+    span {
+        border-radius: 5px;
+        padding: 3px 5px;
+    }
+
+    ;
+}
+
+.item1 {
+    background: #BAD5F5;
+}
+
+.item2 {
+    background: #E1C1C1;
+}
+
+.item3 {
+    background: #AFEAE5;
+}
