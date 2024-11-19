@@ -145,7 +145,7 @@ const Header = () => {
                                 className="text-[#3D4152] hover:text-[#ff5200] font-semibold cursor-pointer"
                                 onClick={() => setCart(true)}
                             >
-                                Cart <sup className="text-[#ff5200]">0</sup>
+                                Cart <sup className="text-[#ff5200]">{buyCart.length}</sup>
                             </div>
                         </nav>
                     </div>
